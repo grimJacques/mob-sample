@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const SCGamePreview = styled.div`
-// background:red;
-width:40vw;
-height:70vh;
+width: 300px;
+height: 400px;
 margin:1vh 1vw;
 overflow:hidden;
+
 `

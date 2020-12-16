@@ -14,9 +14,13 @@ export const SCPaginator = styled.div`
 `
 
 export const Wrapper = styled.div`
-    // background:blue;
     height:32px;
     width:80%;
+    @media (max-width: 760px){
+        width: 100%;
+        padding-left: 8px;
+        padding right: 8px;
+    }
     position: fixed;
     bottom: 10px;
     display: flex;
